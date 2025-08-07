@@ -9,7 +9,9 @@ function RaidScreen({ level, onSelect, onEvacuate }) {
           <OptionCard key={opt.id} option={opt} onClick={() => onSelect(opt.id)} />
         ))}
       </div>
-      <button onClick={onEvacuate} className="mt-6 bg-red-600 text-white px-4 py-2 rounded-xl">🚪 Эвакуироваться</button>
+      <button onClick={onEvacuate} className="mt-6 bg-red-600 text-white px-4 py-2 rounded-xl">
+        🚪 Эвакуироваться
+      </button>
     </div>
   );
 }
